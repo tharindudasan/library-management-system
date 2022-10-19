@@ -1,0 +1,34 @@
+h3 {
+    a {
+        text-decoration: none;
+        color: black;
+
+        ion-icon {
+            padding: 5px;
+            vertical-align: middle;
+        }
+    }
+}
+
+#tbl-members {
+
+    th:first-child,
+   tbody td:first-child {
+        width: 75px;
+        text-align: center;
+
+    }
+    th:nth-child(2),
+   tbody td:nth-child(2) {
+        width: 250px;
+        //text-align: center;
+      //  background-color: red;
+
+    }
+    th:last-child,
+   tbody td:last-child {
+        width: 150px;
+        text-align: center;
+
+    }
+}
